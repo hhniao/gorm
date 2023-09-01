@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gorm"
+	"github.com/hhniao/gorm"
 
-	. "gorm.io/gorm/utils/tests"
+	. "github.com/hhniao/gorm/utils/tests"
 )
 
 type Config struct {

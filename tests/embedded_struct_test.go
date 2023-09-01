@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/hhniao/gorm"
+	. "github.com/hhniao/gorm/utils/tests"
 )
 
 func TestEmbeddedStruct(t *testing.T) {

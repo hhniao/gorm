@@ -3,7 +3,7 @@ package tests_test
 import (
 	"testing"
 
-	. "gorm.io/gorm/utils/tests"
+	. "github.com/hhniao/gorm/utils/tests"
 )
 
 func TestHasOneAssociation(t *testing.T) {

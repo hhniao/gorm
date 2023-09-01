@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"strings"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils"
+	"github.com/hhniao/gorm"
+	"github.com/hhniao/gorm/clause"
+	"github.com/hhniao/gorm/schema"
+	"github.com/hhniao/gorm/utils"
 )
 
 // parsePreloadMap extracts nested preloads. e.g.

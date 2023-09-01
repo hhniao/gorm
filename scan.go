@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"time"
 
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils"
+	"github.com/hhniao/gorm/schema"
+	"github.com/hhniao/gorm/utils"
 )
 
 // prepareValues prepare values slice

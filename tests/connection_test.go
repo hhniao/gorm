@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gorm.io/driver/mysql"
-	"gorm.io/gorm"
+	"github.com/hhniao/driver/mysql"
+	"github.com/hhniao/gorm"
 )
 
 func TestWithSingleConnection(t *testing.T) {

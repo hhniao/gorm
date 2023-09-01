@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gorm.io/gorm/clause"
+	"github.com/hhniao/gorm/clause"
 )
 
 func TestGroupBy(t *testing.T) {

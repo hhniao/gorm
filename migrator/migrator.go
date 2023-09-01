@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/schema"
+	"github.com/hhniao/gorm"
+	"github.com/hhniao/gorm/clause"
+	"github.com/hhniao/gorm/logger"
+	"github.com/hhniao/gorm/schema"
 )
 
 // This regular expression seeks to find a sequence of digits (\d+) among zero or more non-digit characters (\D*),
@@ -579,7 +579,7 @@ func (m Migrator) ColumnTypes(value interface{}) ([]gorm.ColumnType, error) {
 //	q := DB.Model(&User{})
 //	DB.Debug().Migrator().CreateView("user_view", gorm.ViewOption{Query: q, Replace: true, CheckOption: "WITH CHECK OPTION"})
 //
-// [subquery]: https://gorm.io/docs/advanced_query.html#SubQuery
+// [subquery]: https://github.com/hhniao/docs/advanced_query.html#SubQuery
 func (m Migrator) CreateView(name string, option gorm.ViewOption) error {
 	if option.Query == nil {
 		return gorm.ErrSubQueryRequired
